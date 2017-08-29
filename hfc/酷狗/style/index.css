@@ -1,0 +1,324 @@
+#banner{
+	width: 100%;
+	height: 450px;
+}
+
+#banner .img{
+	width: 100%;
+	height: 380px;
+	float: left;
+}
+
+#banner .img img{
+	width: 100%;
+	height: 450px;
+	position: relative;
+	bottom: 61px;
+}
+
+
+/**主页面内容**/
+#concent{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+/*热门榜单*/
+#concent .hot_song{
+	width: 320px;
+	height: 385px;
+	margin-top: 40px;
+	float: right;
+}
+
+#concent .hot_song h3{
+	font-size: 30px;
+	display: inline-block;
+	font-weight: normal;
+	margin-bottom: 12px;
+}
+
+#concent .hot_song h3 span{
+	color: #009af3;
+}
+
+#concent .hot_song>a{
+	float: right;
+	display: inline-block;
+	height: 40px;
+	font-size: 12px;
+	line-height: 40px;
+	margin-bottom: 12px;
+	color: #ccc;
+}
+
+#concent .hot_song li{
+	width: 320px;
+	height: 98px;
+	background-color: #f6f6f6;
+	margin-top: 13px;
+}
+
+#concent .hot_song li .img{
+	width: 98px;
+	height: 98px;
+	float: left;
+}
+
+#concent .hot_song li .img .after{
+	display: none;
+}
+
+#concent .hot_song li:hover .img .after{
+	display: block;
+}
+
+#concent .hot_song li:hover .img .before{
+	display: none;
+}
+
+#concent .hot_song li .list{
+	width: 200px;
+	height: 68px;
+	padding: 15px 11px; 
+	float: right;
+}
+
+#concent .hot_song li .list h2{
+	font-size: 16px;
+	color: #333;
+}
+
+#concent .hot_song li .list p{
+	line-height: 24px;
+	color: #555;
+}
+
+#concent .hot_song li a>img{
+	position: relative;
+	left: 295px;
+	bottom: 98px;
+}
+
+/*精选新歌*/
+#concent .new_song{
+	width: 655px;
+	height: 385px;
+	padding-top: 40px;
+}
+
+#concent .new_song h3{
+	font-size: 30px;
+	display: inline-block;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+#concent .new_song h3 span{
+	color: #009af3;
+}
+
+#concent .new_song>a{
+	float: right;
+	display: inline-block;
+	height: 40px;
+	font-size: 12px;
+	line-height: 40px;
+	margin-bottom: 20px;
+	color: #ccc;
+}
+
+#concent .new_song .list li{
+	width: 160px;
+	height: 160px;
+	margin-bottom: 5px;
+	float: left;
+}
+
+#concent .new_song .list li .small1{
+	width: 160px;
+	height: 160px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	background: url(../images/new_song2.png);
+}
+
+#concent .new_song .list li .small1 .img{
+	display: none;
+}
+
+#concent .new_song .list li .small1:hover .img{
+	display: block;
+}
+
+#concent .new_song .list li .small1:hover .place{
+	display: none;
+}
+
+#concent .new_song .list li .small1:hover .description{
+	display: none;
+}
+
+#concent .new_song .list li .small2{
+	width: 160px;
+	height: 160px;
+	margin-left: 10px;
+	background: url(../images/new_song3.png);
+}
+
+#concent .new_song .list li .small2 .img{
+	display: none;
+}
+
+#concent .new_song .list li .small2:hover .img{
+	display: block;
+}
+
+#concent .new_song .list li .small2:hover .place{
+	display: none;
+}
+
+#concent .new_song .list li .small2:hover .description{
+	display: none;
+}
+
+#concent .new_song .list li .small3{
+	width: 160px;
+	height: 160px;
+	margin-left: 5px;
+	background: url(../images/new_song4.png);
+}
+
+#concent .new_song .list li .small3 .img{
+	display: none;
+}
+
+#concent .new_song .list li .small3:hover .img{
+	display: block;
+}
+
+#concent .new_song .list li .small3:hover .place{
+	display: none;
+}
+
+#concent .new_song .list li .small3:hover .description{
+	display: none;
+}
+
+#concent .new_song .list li .small4{
+	width: 160px;
+	height: 160px;
+	margin-left: 10px;
+	background: url(../images/new_song5.png);
+}
+
+#concent .new_song .list li .small4 .img{
+	display: none;
+}
+
+#concent .new_song .list li .small4:hover .img{
+	display: block;
+}
+
+#concent .new_song .list li .small4:hover .place{
+	display: none;
+}
+
+#concent .new_song .list li .small4:hover .description{
+	display: none;
+}
+
+#concent .new_song .list .big{
+	width: 325px;
+	height: 325px;
+}
+
+#concent .new_song .list li .big{
+	width: 325px;
+	height: 325px;
+	background: url(../images/new_song1.png);
+}
+
+#concent .new_song .list li .big .img{
+	display: none;
+}
+
+#concent .new_song .list li .big:hover .img{
+	display: block;
+}
+
+#concent .new_song .list li .big:hover .place1{
+	display: none;
+}
+
+#concent .new_song .list li .big:hover .description1{
+	display: none;
+}
+
+
+#concent .new_song .list li .place1 img{
+	margin-left: 180px;
+}
+
+#concent .new_song .list li .place1 p{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	font-size: 13px;
+	color: #fff;
+	float: right;
+	margin-right: 8px;
+}
+
+#concent .new_song .list li .description1{
+	width: 160px;
+	height: 50px;
+	position: relative;
+	top: 240px;
+}
+
+#concent .new_song .list li .description1 p{
+	color: #fff;
+	width: 300px;
+	font-size: 14px;
+	padding-left: 8px;
+	height: 17px;
+	padding-top: 6px;
+}
+
+#concent .new_song .list li .description1 span{
+	color: #ccc;
+	font-size: 14px;
+	padding-left: 8px
+}
+
+#concent .new_song .list li .place p{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	font-size: 13px;
+	color: #fff;
+	float: right;
+	margin-right: 8px;
+}
+
+#concent .new_song .list li .description{
+	width: 160px;
+	height: 50px;
+	position: relative;
+	top: 76px;
+}
+
+#concent .new_song .list li .description p{
+	color: #fff;
+	font-size: 14px;
+	padding-left: 8px;
+	height: 17px;
+	padding-top: 6px;
+}
+
+#concent .new_song .list li .description span{
+	color: #ccc;
+	font-size: 14px;
+	padding-left: 8px
+}
