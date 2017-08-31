@@ -27,4 +27,3 @@ function changeimg(){
 
 	obj.src=arr[i];
 }
-

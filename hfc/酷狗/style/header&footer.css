@@ -138,20 +138,20 @@ li{
 /**菜单栏**/
 #nav{
 	width: 100%;
-	height: 55px;
+	height: 56px;
 	background-color: #2c323b;
 }
 
 #nav .nav{
 	width: 1000px;
-	height: 55px;
+	height: 56px;
 	margin: 0 auto;
 }
 
 /*左侧菜单*/
 #nav .nav .nav_left{
 	width: 437px;
-	height: 55px;
+	height: 56px;
 }
 
 #nav .nav .nav_left li{
@@ -160,8 +160,8 @@ li{
 	bottom: 1px;
 	padding: 0px 30px;
 	text-align: center;
-	height: 55px;
-	line-height: 55px;
+	height: 57px;
+	line-height: 56px;
 }
 
 #nav .nav .nav_left li:hover{
@@ -193,7 +193,7 @@ li{
 
 #nav .nav .nav_left .more a{
 	display: inline-block;
-	height: 55px;
+	height: 56px;
 	line-height: 55px;
 	color: #ccc;
 }
@@ -201,7 +201,7 @@ li{
 #nav .nav .nav_left .more .img{
 	float: right;
 	width: 24px;
-	height: 55px;
+	height: 56px;
 }
 
 #nav .nav .nav_left .more .img .up{
@@ -252,7 +252,7 @@ li{
 /*右侧菜单*/
 #nav .nav .nav_right{
 	width: 450px;
-	height: 55px;
+	height: 56px;
 	float: right;
 	position: relative;
 	bottom: 61px;
@@ -261,8 +261,8 @@ li{
 #nav .nav .nav_right li{
 	float: left;
 	width: 90px;
-	height: 55px;
-	line-height: 55px;
+	height: 56px;
+	line-height: 56px;
 }
 
 #nav .nav .nav_right li span{
@@ -270,12 +270,13 @@ li{
 	float: left;
 	width: 70px;
 	color: #ccc;
-	text-align: center;
+	position: relative;
+	left: 5px;
 }
 
 #nav .nav .nav_right .img{
 	width: 20px;
-	height: 55px;
+	height: 56px;
 	float: left;
 	position: relative;
 	top: 1px;
@@ -298,3 +299,85 @@ li{
 }
 
 
+
+
+
+/**页面底部**/
+#main_page #footer{
+	height: 290px;
+	background: #2c323b;
+}
+
+#main_page #footer ul{
+	width: 1000px;
+	height: 48px;
+	margin: 0 auto;
+}
+
+#main_page #footer ul li{
+	height: 48px;
+	float: left;
+	padding-right: 4px;
+}
+#main_page #footer ul a{
+	display: inline-block;
+	position: relative;
+	height: 48px;
+	line-height: 48px;
+	bottom: 18px;
+	font-size: 12px;
+	color: #b1b3b9;
+}
+
+#main_page #footer ul a:hover{
+	color: #099ff6;
+}
+
+#main_page #footer .last a{
+	position: relative;
+	top: 2px;
+}
+
+
+/*横线*/
+#main_page #footer hr{
+	border: 0px;
+	height: 1px;
+	background: #999;
+}
+
+#main_page #footer .end{
+	width: 1000px;
+	height: 150px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+#main_page #footer .end p{
+	width: 1000px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #999;
+	font-size: 14px;
+}
+
+#main_page #footer .end a{
+	color: #999;
+}
+
+#main_page #footer .end img{
+	display: block;
+}
+
+#main_page #footer .end .logo{
+	position: relative;
+	bottom: 32px;
+	left: 830px;
+}
+
+#main_page #footer .end .an{
+	position: relative;
+	bottom: 34px;
+	left: 686px;
+}

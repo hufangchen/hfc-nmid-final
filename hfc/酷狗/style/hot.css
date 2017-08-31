@@ -1,0 +1,87 @@
+/**热门歌手**/
+#concent .hot_songer{
+	width: 320px;
+	height: 380px;
+	float: right;
+	background: red;
+}
+
+#concent .hot_songer .act1 a{
+	color: red;
+}
+
+#concent .hot_songer .act1 .con2{
+	display: none;
+}
+
+#concent .hot_songer .act1 .con3{
+	display: none;
+}
+
+#concent .hot_songer .act1 .con4{
+	display: none;
+}
+
+#concent .hot_songer .act2 .con1{
+	display: none;
+}
+
+#concent .hot_songer .act2 .con2{
+	display: none;
+}
+
+#concent .hot_songer .act2 .con3{
+	display: none;
+}
+
+#concent .hot_songer .act2 .con4{
+	display: none;
+}
+
+#concent .hot_songer .act3 .con1{
+	display: none;
+}
+
+#concent .hot_songer .act3 .con2{
+	display: none;
+}
+
+#concent .hot_songer .act3 .con3{
+	display: none;
+}
+
+#concent .hot_songer .act3 .con4{
+	display: none;
+}
+
+#concent .hot_songer .act4 .con1{
+	display: none;
+}
+
+#concent .hot_songer .act4 .con2{
+	display: none;
+}
+
+#concent .hot_songer .act4 .con3{
+	display: none;
+}
+
+#concent .hot_songer .act4 .con4{
+	display: none;
+}
+
+#concent .hot_songer .act4:hover .con1{
+	display: none;
+}
+
+#concent .hot_songer .act4:hover .con2{
+	display: none;
+}
+
+#concent .hot_songer .act4:hover .con3{
+	display: none;
+}
+
+#concent .hot_songer .act4:hover .con4{
+	display: block;
+}

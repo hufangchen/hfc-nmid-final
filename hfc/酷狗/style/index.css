@@ -322,3 +322,371 @@
 	font-size: 14px;
 	padding-left: 8px
 }
+
+
+/**广告轮播图**/
+#concent .ad_img{
+	width: 1000px;
+	height: 60px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+
+/**推荐MV**/
+#concent .mv{
+	width: 320px;
+	height: 372px;
+	float: right;
+}
+
+#concent .mv h1{
+	font-weight: normal;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+#concent .mv h1 span{
+	color: #44a8f4;
+}
+
+#concent .mv h1 a{
+	float: right;
+	color: #ccc;
+	font-size: 12px;
+	line-height: 40px;
+}
+
+#concent .mv .mv_list{
+	width: 320px;
+	height: 312px;
+}
+
+#concent .mv .mv_list .img{
+	width: 320px;
+	height: 175px;
+	background: red;
+}
+
+#concent .mv .mv_list .img .after{
+	display: none;
+}
+
+#concent .mv .mv_list .img:hover .before{
+	display: none;
+}
+
+#concent .mv .mv_list .img:hover .after{
+	display: block;
+}
+
+#concent .mv .mv_list .des li{
+	width: 150px;
+	height: 120px;
+	margin-top: 17px;
+	float: left;
+	margin-right: 20px;
+}
+
+#concent .mv .mv_list .des .right{
+	margin-right: 0px;
+}
+
+#concent .mv .mv_list .des li .ban{
+	width: 150px;
+	height: 80px;
+}
+#concent .mv .mv_list .des li .after{
+	display: none;
+	width: 150px;
+	height: 82px;
+}
+
+#concent .mv .mv_list .des li p{
+	height: 20px;
+	font-size: 14px;
+	height: 24px;
+	line-height: 36px;
+	color: #444;
+}
+
+#concent .mv .mv_list .des li span{
+	font-size: 12px;
+	color: #666;
+}
+
+#concent .mv .mv_list .des li:hover .before{
+	display: none;
+}
+
+#concent .mv .mv_list .des li:hover .after{
+	display: block;
+}
+
+#concent .mv .mv_list .des li:hover p{
+	color: #009af2;
+}
+
+
+/**新歌首发**/
+#concent .first_song{
+	width: 650px;
+	height: 378px;
+}
+#concent .first_song .nav{
+	width: 650px;
+	height: 60px;
+}
+
+#concent .first_song .nav h1{
+	font-size: 30px;
+	color: #555;
+	font-weight: normal;
+	width: 150px;
+	float: left;
+}
+
+#concent .first_song .nav h1 span{
+	color: #009bf2; 
+}
+
+#concent .first_song .nav .city li{
+	float: left;
+	line-height: 40px;
+	margin-right: 30px;
+	font-size: 14px;
+}
+
+#concent .first_song .nav .city li a{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	color: #111;
+}
+
+#concent .first_song .nav .city .act a{
+	color: #009bf2;
+}
+
+#concent .first_song .list .hide{
+	display: none;
+}
+
+#concent .first_song .list div{
+	width: 650px;
+	height: 310px;
+	margin-top: 10px;
+}
+
+#concent .first_song .nav .img{
+	width: 91px;
+	height: 31px;
+	margin-top: 4px;
+	float: right;
+}
+
+#concent .first_song .nav .img .after{
+	display: none;
+}
+
+#concent .first_song .nav .img:hover .before{
+	display: none;
+}
+
+#concent .first_song .nav .img:hover .after{
+	display: block;
+}
+
+
+/*歌曲样式*/
+#concent .first_song .list li{
+	width: 650px;
+	height: 35px;
+}
+
+#concent .first_song .list p{
+	display: inline-block;
+	width: 400px;
+	padding-left: 10px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+	color: #444;
+}
+
+#concent .first_song .list p img{
+	margin-left: 12px;
+}
+
+#concent .first_song .list .time{
+	display: block;
+	width: 200px;
+	height: 35px;
+	float: right;
+	font-size: 12px;
+}
+
+#concent .first_song .list ul .num{
+	color: #444;
+	display: block;
+	height: 9px;
+	width: 650px;
+	text-align: center;
+}
+#concent .first_song .list .time .img1{
+	display: inline-block;
+	width: 13px;
+	height: 35px;
+	margin-left: 105px;
+}
+
+#concent .first_song .list .time .img1 img{
+	display: none;
+}
+
+#concent .first_song .list .time .img2{
+	display: inline-block;
+	width: 13px;
+	height: 35px;
+	margin-left: 8px;
+}
+
+#concent .first_song .list .time .img2 img{
+	display: none;
+}
+
+#concent .first_song .list .time .timer{
+	display: inline-block;
+	width: 40px;
+	height: 35px;
+	line-height: 35px;
+	float: right;
+	font-size: 14px;
+	color: #444;
+}
+
+#concent .first_song .list li:hover{
+	background: #f5f8fb;
+}
+
+#concent .first_song .list li:hover p{
+	color: #0b8bd2;
+}
+
+#concent .first_song .list li:hover p img{
+	display: none;
+}
+
+#concent .first_song .list li:hover .time .img1 .before{
+	display: block;
+}
+
+#concent .first_song .list li:hover .time .img2 .before{
+	display: block;
+}
+
+#concent .first_song .list li:hover .time .timer{
+	color: #0b8bd2;
+}
+
+#concent .first_song .list li .time .img1:hover .before{
+	display: none;
+}
+
+#concent .first_song .list li .time .img1:hover .after{
+	display: block;
+}
+
+#concent .first_song .list li .time .img2:hover .before{
+	display: none;
+}
+
+#concent .first_song .list li .time .img2:hover .after{
+	display: block;
+}
+
+
+
+/*翻页*/
+#concent .first_song .list .page{
+	width: 63px;
+	height: 9px;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	bottom: 11px;
+}
+
+#concent .first_song .list .page .num{
+	display: inline-block;
+	width: 20px;
+	height: 9px;
+	margin: 0px 10px;
+	text-align: center;
+	font-size: 12px;
+}
+
+#concent .first_song .list .page .right{
+	float: right;
+}
+
+#concent .first_song .list .hide1{
+	display: none;
+}
+#concent .first_song .list .act{
+	display: block;
+}
+
+
+/**广告图二**/
+#concent .cat{
+	width: 1000px;
+	height: 100px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+/**热门歌手**/
+#concent .hot_songer{
+	width: 320px;
+	height: 380px;
+	float: right;
+	
+}
+
+#concent .hot_songer .act a{
+	color: #0b8bd2;
+}
+
+#concent .hot_songer a{
+	color: #444;
+}
+#concent .hot_songer .hide{
+	display: none;
+}
+
+#concent .hot_songer h1{
+	font-size: 30px;
+	color: #ccc;
+	font-weight: normal;
+	display: inline-block;
+}
+
+#concent .hot_songer h1 span{
+	color: #0b8bd2;
+}
+
+#concent .hot_songer ul{
+	width: 180px;
+	height: 40px;
+	float: right;
+}
+
+#concent .hot_songer ul a{
+	float: left;
+	display: inline-block;
+	line-height: 40px;
+	width: 45px;
+	text-align: center;
+	font-size: 13px;
+}

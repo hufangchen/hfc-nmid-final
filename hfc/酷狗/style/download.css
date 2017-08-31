@@ -1,0 +1,203 @@
+/**内容**/
+#concent #place{
+	width: 1000px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+/*位置*/
+#concent #place p{
+	float: left;
+	position: relative;
+	bottom: 40px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #999;
+}
+
+#concent  #place a{
+	color: #999;
+}
+
+#concent  #place a:hover{
+	color: #28a9f3;
+}
+
+/*版本*/
+#concent #rev{
+	height: 305px;
+	background: #f8f8f8;
+	padding-top: 50px;
+}
+
+#concent #rev ul{
+	width: 1000px;
+	height: 250px;
+	margin: 0 auto;
+}
+#concent #rev li{
+	float: left;
+	width: 320px;
+	height: 250px;
+	background-color: #fff;
+	margin-right: 20px;
+}
+
+#concent #rev li:hover{
+	box-shadow: 0px 0px 20px rgba(53, 45, 45, 0.2);
+}
+
+#concent #rev .right{
+	margin-right: 0px;
+}
+
+#concent #rev .border .img img{
+	margin-left: 70px;
+	margin-top: 20px;
+}
+
+#concent #rev .border .img h2{
+	font-weight: normal;
+	width: 180px;
+	text-align: center;
+	color: #333;
+	font-size: 20px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+#concent #rev .border:hover .img h2{
+	color: #28a9f3;
+}
+
+#concent #rev .border .list p{
+	width: 320px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 34px;
+	color: #999;
+}
+
+#concent #rev .border .list a{
+	display: block;
+	width: 180px;
+	height: 36px;
+	background: #28a9f3;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+#concent #rev .border .list a img{
+	margin-left: 50px;
+}
+
+#concent #rev .border .list a span{
+	display: inline-block;
+	height: 36px;
+	line-height: 36px;
+	position: relative;
+	bottom: 13px;
+	font-size: 14px;
+	color: #fff;
+}
+
+#concent #rev .border>span{
+	position: relative;
+	bottom: 220px;
+	left: 250px;
+	color: #999;
+}
+
+/*其他应用*/
+#concent #app{
+	height: 800px;
+	background-color: #eeeff0;
+}
+
+#concent #app .border{
+	width: 1000px;
+	height: 800px;
+	margin: 0 auto;
+}
+
+#concent #app .border ul{
+	padding-top: 50px;
+}
+
+#concent #app .border li{
+	width: 320px;
+	height: 124px;
+	float: left;
+	background: #fff;
+	margin-bottom: 20px;
+	margin-right: 20px; 
+	border-radius: 5px;
+}
+
+#concent #app .border li:hover{
+	box-shadow: 0px 0px 20px rgba(53, 45, 45, 0.2);
+}
+
+#concent #app .border .right{
+	margin-right: 0px;
+}
+
+#concent #app .border .img{
+	float: left;
+	width: 110px;
+	height: 124px;
+	line-height: 124px;
+	margin-top: 14px;
+}
+
+#concent #app .border .list{
+	width: 210px;
+	height: 124px;
+	float: right;
+}
+
+#concent #app .border .list .name{
+	display: block;
+	width: 150px;
+	color: #000;
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+#concent #app .border .list b{
+	font-weight: normal;
+	display: block;
+	font-size: 14px;
+	color: #999;
+	margin-top: 6px;
+}
+
+#concent #app .border .list .load{
+	display: inline-block;
+	width: 80px;
+	height: 26px;
+	font-size: 15px;
+	color: #fff;
+	background: #28a9f3;
+	line-height: 26px;
+	text-align: center;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+
+#concent #app .border .list .load:hover{
+	background-color: #0c86cc;
+}
+
+#concent #app .border .list span{
+	color: #999;
+	font-size: 14px;
+}
+
+#concent #app .border li:hover .list .name{
+	color: #28a9f3;
+}
+
+
