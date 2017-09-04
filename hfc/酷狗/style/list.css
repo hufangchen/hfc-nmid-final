@@ -1,0 +1,334 @@
+#concent{
+	width: 1000px;
+	height: 1530px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+
+/**右侧列表**/
+#concent .lists{
+	width: 750px;
+	height: 1500px;
+	float: right;
+}
+
+#concent .lists .hide{
+	display: none;
+}
+
+#concent .lists div{
+	width: 750px;
+	
+	float: right;
+}
+
+#concent .lists .title{
+	width: 750px;
+	height: 57px;
+	display: block;
+	margin-bottom: 8px;
+
+}
+
+#concent .lists .title h1{
+	font-size: 20px;
+	font-weight: normal;
+	color: #000;
+	line-height: 57px;
+}
+
+#concent .lists .title h1 span{
+	color: #444;
+	font-size: 13px;
+	padding-left: 20px;
+}
+
+#concent .lists .title a{
+	display: inline-block;
+	float: right;
+	margin-top: 11px;
+}
+
+#concent .lists .title a .img{
+	width: 112px;
+	height: 34px;
+	display: block;
+}
+
+#concent .lists .title a .img .after{
+	display: none;
+}
+
+#concent .lists .title a:hover .before{
+	display: none;
+}
+
+#concent .lists .title a:hover .after{
+	display: block;
+}
+
+#concent .lists hr{
+	border: 0px solid #999;
+	height: 1px;
+	background: #e4e2e2;
+}
+
+#concent .lists .a{
+	width: 750px;
+	height: 55px;
+	display: block;
+}
+
+#concent .lists .a input{
+	margin-left: 10px;
+	display: inline-block;
+	margin-top: 22px;
+}
+
+#concent .lists .a .all{
+	color: #ccc;
+	font-size: 14px;
+	position: relative;
+	bottom: 2px;
+	left: 4px;
+}
+
+#concent .lists li{
+	width: 750px;
+	height: 54px;
+}
+
+#concent .lists li input{
+	margin-left: 10px;
+	margin-top: 22px;
+}
+
+#concent .lists li .right{
+	width: 715px;
+	float: right;
+	height: 54px;
+}
+
+#concent .lists li .right .time{
+	width: 120px;
+	height: 54px;
+	display: inline-block;
+	float: right;
+}
+
+#concent .lists li .right .time .play{
+	display: inline-block;
+	width: 12px;
+	height: 54px;
+}
+
+#concent .lists li .right .time .play .before{
+	display: none;
+}
+
+#concent .lists li .right .time .play .after{
+	display: none;
+}
+
+#concent .lists li .right .time .down{
+	display: inline-block;
+	width: 13px;
+	height: 54px;
+	margin-left: 7px;
+}
+
+#concent .lists li .right .time .down .before{
+	display: none;
+}
+
+#concent .lists li .right .time .down .after{
+	display: none;
+}
+
+#concent .lists li .right .time .show{
+	display: inline-block;
+	width: 14px;
+	height: 54px;
+	margin-left: 7px;
+}
+
+#concent .lists li .right .time .show .before{
+	display: none;
+}
+
+#concent .lists li .right .time .show .after{
+	display: none;
+}
+
+#concent .lists li .right .time .times{
+	display: inline-block;
+	width: 52px;
+	height: 54px;
+	position: relative;
+	text-align: center;
+	line-height: 54px;
+	bottom: 20px;
+	color: #555;
+}
+
+#concent .lists li .right .name{
+	width: 500px;
+	height: 54px;
+}
+
+#concent .lists li .right .name .song{
+	display: inline-block;
+	height: 54px;
+	line-height: 54px;
+	color: #333;
+}
+
+#concent .lists li .right .name .song span{
+	margin-right: 10px;
+}
+
+#concent .lists .act .right .name .song span{
+	color: red;
+	font-weight: bold;
+}
+
+#concent .lists li:hover{
+	background: #f5f8fb;
+}
+
+#concent .lists li:hover .right .name>span{
+	color: #0c8ed9;
+}
+
+#concent .lists li:hover .right .time .times{
+	color: #0c8ed9;
+}
+
+#concent .lists li:hover .right .time .play .before{
+	display: block;
+}
+
+#concent .lists li .right .time .play:hover .before{
+	display: none;
+}
+
+#concent .lists li .right .time .play:hover .after{
+	display: block;
+}
+
+#concent .lists li:hover .right .time .down .before{
+	display: block;
+}
+
+#concent .lists li .right .time .down:hover .before{
+	display: none;
+}
+
+#concent .lists li .right .time .down:hover .after{
+	display: block;
+}
+
+#concent .lists li:hover .right .time .show .before{
+	display: block;
+}
+
+#concent .lists li .right .time .show:hover .before{
+	display: none;
+}
+
+#concent .lists li .right .time .show:hover .after{
+	display: block;
+}
+
+/*more*/
+#concent .lists .more{
+	width: 750px;
+	height: 120px;
+}
+
+#concent .lists .more p{
+	width: 750px;
+	height: 36px;
+	margin-top: 42px;
+	font-size: 16px;
+	line-height: 36px;
+	padding-left: 200px;
+	color: #444;
+}
+
+#concent .lists .more .img{
+	position: relative;
+	bottom: 18px;
+	left: 250px;
+}
+
+#concent .lists .more .img .after{
+	display: none;
+}
+
+#concent .lists .more .img:hover .after{
+	display: block;
+}
+
+#concent .lists .more .img:hover .before{
+	display: none;
+}
+
+
+/**左侧列表**/
+#concent .wrap{
+	width: 218px;
+	height: 1500px;
+}
+
+#concent .wrap .list{
+ 	border:1px solid #666;
+ 	overflow:hidden;
+}
+#concent .wrap .list h5{
+ 	border:1px solid #777;
+ 	border-width:0 0 1px;
+ 	padding:0;
+ 	margin:0;
+ 	height:43px;
+ 	line-height:45px;
+ 	cursor:pointer;
+ 	width: 218px;
+ 	font-size: 22px;
+ 	padding-left: 10px;
+ 	font-weight: normal;
+}
+
+#concent .wrap .list .act a span{
+	color: red;
+}
+
+#concent .wrap .list li{
+	width: 218px;
+	height: 40px;
+}
+
+#concent .wrap .list li a img{
+	margin: 0px 10px;
+	position: relative;
+	bottom: 2px;
+}
+#concent .wrap .list li a span{
+	display: inline-block;
+	width: 175px;
+	height: 40px;
+	line-height: 40px;
+	position: relative;
+	bottom: 13px;
+	font-size: 16px;
+	color: #444;
+}
+
+#concent .wrap .list li:hover{
+	background: #f5f8fb;
+}
+
+#concent .wrap .list li:hover a span{
+	color: #0c8ed9;
+}

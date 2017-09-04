@@ -659,8 +659,13 @@
 }
 
 #concent .hot_songer a{
-	color: #444;
+	color: #000;
 }
+
+#concent .hot_songer .more{
+	color: #777;
+}
+
 #concent .hot_songer .hide{
 	display: none;
 }
@@ -689,4 +694,232 @@
 	width: 45px;
 	text-align: center;
 	font-size: 13px;
+}
+
+#concent .hot_songer .people div{
+	width: 325px;
+	height: 320px;
+	margin-top: 30px;
+}
+
+#concent .hot_songer .people div ul{
+	width: 325px;
+	height: 310px;
+}
+
+#concent .hot_songer .people div .big{
+	width: 160px;
+	height: 160px;
+	float: left;
+	margin-right: 5px;
+}
+
+#concent .hot_songer .people div .small{
+	width: 105px;
+	height: 105px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 6px;
+}
+
+#concent .hot_songer .people div .right1{
+	width: 155px;
+	margin-right: 0px;
+}
+
+#concent .hot_songer .people div .right2{
+	width: 100px;
+	margin-right: 0px;
+}
+
+#concent .hot_songer .people div .img1{
+	width: 155px;
+	height: 160px;
+}
+
+#concent .hot_songer .people div .img2{
+	height: 105px;
+	width: 100px;
+}
+
+#concent .hot_songer .people div li:hover img{
+	opacity: 0.5;
+}
+
+
+/*热门电台*/
+#concent .hot_radio{
+	width: 650px;
+	height: 380px;
+}
+
+#concent .hot_radio h1{
+	font-size: 30px;
+	color: #555;
+	font-weight: normal;
+}
+
+#concent .hot_radio h1 span{
+	color: #0b8bd2;
+}
+
+#concent .hot_radio h1 a{
+	float: right;
+	font-size: 13px;
+	color: #777;
+	display: inline-block;
+	line-height: 40px;
+}
+
+#concent .hot_radio .radio{
+	width: 650px;
+	height: 310px;
+	margin-top: 30px;
+}
+
+#concent .hot_radio .radio ul{
+	width: 650px;
+	height: 310px;
+}
+#concent .hot_radio .radio li{
+	width: 100px;
+	height: 140px;
+	margin-right: 37.5px;
+	margin-bottom: 15px;
+	float: left;
+}
+
+#concent .hot_radio .radio .right{
+	margin-right: 0px;
+}
+
+#concent .hot_radio .radio .play{
+	width: 100px;
+	height: 100px;
+}
+
+#concent .hot_radio .radio .play .after{
+	display: none;
+}
+
+#concent .hot_radio .radio p{
+	width: 100px;
+	height: 20px;
+	font-size: 14px;
+	line-height: 20px;
+	margin-top: 10px;
+	text-align: center;
+	color: #333;
+}
+
+#concent .hot_radio .radio li:hover p{
+	color: #0b8bd2;
+}
+
+#concent .hot_radio .radio li:hover .before{
+	display: none;
+}
+
+#concent .hot_radio .radio li:hover .after{
+	display: block;
+}
+
+
+/*酷狗直播*/
+#concent .live{
+	width: 1000px;
+	height: 100px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+
+/*合作伙伴*/
+#concent .friend{
+	width: 1000px;
+	height: 286px;
+}
+
+#concent .friend h1{
+	height: 40px;
+	font-size: 30px;
+	color: #777;
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+
+#concent .friend h1 span{
+	color: #0b8bd2;
+}
+
+#concent .friend ul{
+	width: 1000px;
+	height: 216px;
+}
+
+#concent .friend ul li{
+	width: 132px;
+	height: 60px;
+	margin-right: 12.6px;
+	margin-bottom: 12px;
+	float: left;
+}
+
+#concent .friend ul .right{
+	margin-right: 0px;
+}
+
+
+/*友情链接*/
+#concent .friend_nav{
+	width: 1000px;
+	height: 178px;
+	margin-top: 30px;
+}
+
+#concent .friend_nav h1{
+	font-weight: normal;
+	font-size: 30px;
+	height: 40px;
+	color: #777;
+	margin-bottom: 30px;
+}
+
+#concent .friend_nav h1 span{
+	color: #0b8bd2;
+}
+
+#concent .friend_nav h1 a{
+	color: #777;
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	font-size: 13px;
+	float: right;
+}
+
+#concent .friend_nav ul{
+	width: 1000px;
+	height: 88px;
+	margin-bottom: 20px;
+}
+
+#concent .friend_nav ul li{
+	width: 125px;
+	height: 30px;
+	float: left;
+	margin-bottom: 24px;
+}
+
+#concent .friend_nav ul li a{
+	display: inline-block;
+	width: 125px;
+	height: 30px;
+	font-size: 14px;
+	line-height: 30px;
+	color: #333;
+}
+
+#concent .friend_nav ul li a:hover{
+	color: #0b8bd2;
 }
