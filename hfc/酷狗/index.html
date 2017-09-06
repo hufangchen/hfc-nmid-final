@@ -7,16 +7,47 @@
 	<link rel="stylesheet" type="text/css" href="style/header&footer.css">
 	<link rel="stylesheet" type="text/css" href="style/log.css">
 	<script type="text/javascript" src="js/banner.js"></script>
-	<script  type="text/javascript" src="js/index.js"></script>
-	
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/log.js"></script>
 	
 </head>
 
 <body>
 
+
+
+
 	<!--主页面-->
 	<div id="main_page">
+		
+		<!--登录页面-->
+		<div id="log_page" style="display: none;">
+			<div class="mask" id="mask" onselectstart="return false"></div>
 
+			<div class="dialog" id="dialogMove" onselectstart='return false;'>
+				<div class="title" id="dialogDrag"  onselectstart="return false;" >
+					登录通行证
+					<a class="closebutton" href="javascript:hideDialog();"></a>
+				</div>
+				<div class="content">
+					<div class="login pt">
+						<input class="input username" type="input" placeholder="手机/邮箱/用户名" value="" />
+					</div>
+					<div class="login pt">
+						<input class="input password" type="password" placeholder="密码" value="" />
+					</div>
+					<div class="login">
+						<a href="#">忘记密码</a>
+					</div>
+					<div>
+						<a class="submit" href="#" >登录</a>
+					</div>
+					<div class="login">
+						<a href="#">立即注册</a>
+					</div>
+				</div>
+			</div>
+		</div>
 		<!--主页面头部-->
 		<div id="header">
 
@@ -51,7 +82,7 @@
 					</li>
 				</ul>
 				<div class="login">
-					<a href="#" class="left">登录</a>
+					<a href="javascript:showDialog();" class="left" id="log">登录</a>
 					<a href="#" class="right">注册</a>
 				</div>
 			</div>
@@ -2420,5 +2451,7 @@
 		</div>
 	</div>
 
+
+</script>
 </body>
 </html>

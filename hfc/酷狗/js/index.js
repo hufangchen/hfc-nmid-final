@@ -5,6 +5,7 @@ window.onload = function() {
     tab3("btn1","a","list","ul");
     tab4("btn2","a","list","ul");
     tab5("btn3","a","list","ul");
+    log();
 }
 function tab(city,citys,list,lists){
     var city = document.getElementById(city);
@@ -58,18 +59,18 @@ function tab2(btn,btns,page,pages){
     var pages = page.children[0].getElementsByTagName(pages);
     var num = document.getElementById('num');
     var len = btns.length;
-    var i=2;
+    var i=0;
     for(i=0; i<1;i++){
         btns[0].onclick = function(){
                 
-            if(i>1&&i<=2){
+            if(i==3){
                 i--;
                 pages[0].className="hide1";
                 pages[1].className="act";
                 pages[2].className="hide1";
                 }
             else{
-                i=0;
+                i=1;
                 pages[0].className="act";
                 pages[1].className="hide1";
                 pages[2].className="hide1";
@@ -79,7 +80,7 @@ function tab2(btn,btns,page,pages){
 
         btns[1].onclick = function(){
                 
-            if(i>=0&&i<1){
+            if(i==1){
                 i++;
                 pages[0].className="hide1";
                 pages[1].className="act";
@@ -87,7 +88,7 @@ function tab2(btn,btns,page,pages){
             }
             else{
                 
-                i=2;
+                i=3;
                 pages[0].className="hide1";
                 pages[1].className="hide1";
                 pages[2].className="act";
@@ -108,14 +109,14 @@ function tab3(btn,btns,page,pages){
     for(i=0; i<1;i++){
         btns[0].onclick = function(){
                 
-            if(i>1&&i<=2){
+            if(i==3){
                 i--;
                 pages[0].className="hide1";
                 pages[1].className="act";
                 pages[2].className="hide1";
                 }
             else{
-                i=0;
+                i=1;
                 pages[0].className="act";
                 pages[1].className="hide1";
                 pages[2].className="hide1";
@@ -125,7 +126,7 @@ function tab3(btn,btns,page,pages){
 
         btns[1].onclick = function(){
                 
-            if(i>=0&&i<1){
+            if(i==1){
                 i++;
                 pages[0].className="hide1";
                 pages[1].className="act";
@@ -133,7 +134,7 @@ function tab3(btn,btns,page,pages){
             }
             else{
                 
-                i=2;
+                i=3;
                 pages[0].className="hide1";
                 pages[1].className="hide1";
                 pages[2].className="act";
@@ -154,14 +155,14 @@ function tab4(btn,btns,page,pages){
     for(i=0; i<1;i++){
         btns[0].onclick = function(){
                 
-            if(i>1&&i<=2){
+            if(i==3){
                 i--;
                 pages[0].className="hide1";
                 pages[1].className="act";
                 pages[2].className="hide1";
                 }
             else{
-                i=0;
+                i=1;
                 pages[0].className="act";
                 pages[1].className="hide1";
                 pages[2].className="hide1";
@@ -171,7 +172,7 @@ function tab4(btn,btns,page,pages){
 
         btns[1].onclick = function(){
                 
-            if(i>=0&&i<1){
+            if(i==1){
                 i++;
                 pages[0].className="hide1";
                 pages[1].className="act";
@@ -179,7 +180,7 @@ function tab4(btn,btns,page,pages){
             }
             else{
                 
-                i=2;
+                i=3;
                 pages[0].className="hide1";
                 pages[1].className="hide1";
                 pages[2].className="act";
@@ -200,14 +201,14 @@ function tab5(btn,btns,page,pages){
     for(i=0; i<1;i++){
         btns[0].onclick = function(){
                 
-            if(i>1&&i<=2){
+            if(i==3){
                 i--;
                 pages[0].className="hide1";
                 pages[1].className="act";
                 pages[2].className="hide1";
                 }
             else{
-                i=0;
+                i=1;
                 pages[0].className="act";
                 pages[1].className="hide1";
                 pages[2].className="hide1";
@@ -217,7 +218,7 @@ function tab5(btn,btns,page,pages){
 
         btns[1].onclick = function(){
                 
-            if(i>=0&&i<1){
+            if(i==1){
                 i++;
                 pages[0].className="hide1";
                 pages[1].className="act";
@@ -225,12 +226,23 @@ function tab5(btn,btns,page,pages){
             }
             else{
                 
-                i=2;
+                i=3;
                 pages[0].className="hide1";
                 pages[1].className="hide1";
                 pages[2].className="act";
             }
             return false;
         }
+    }
+}
+
+function log(){
+
+    var log = document.getElementById("log");
+    var log_page = document.getElementById("log_page");
+
+    log.onclick = function(){
+
+        log_page.style.display="block";
     }
 }
